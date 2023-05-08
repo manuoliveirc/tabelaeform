@@ -1,0 +1,65 @@
+body {
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+:root {
+    --primary: #2c74e2;
+    --hover: rgb(33, 85, 163);
+    --altura-main: calc(100vh - 15rem);
+}
+
+header {
+    height: 10rem;
+
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    font-weight: 400;
+    text-align: center;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(255, 255, 255);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#fundo {
+    height: 70%;
+    text-align: center;
+    background-image: url(../img/header.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+main {
+    min-height: var(--altura-main);
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ol, ul {
+    width: 90%;
+    margin: auto;
+}
+
+
