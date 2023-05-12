@@ -1,5 +1,5 @@
 :root {
-    --primary: rgb(0,191,255);
+    --primary: rgb(0, 191, 255);
     --hover: rgb(33, 85, 163);
     --altura-main: calc(100vh - 15rem);
 }

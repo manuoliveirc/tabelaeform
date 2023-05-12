@@ -47,7 +47,8 @@
 
 
             <!-- estados -->
-            <label for="estado">Estado</label>/<label for="cidade">Cidade</label>
+            <label for="estado">Estado</label>
+            <label for="cidade">Cidade</label>
             <select name="estado" id="estado">
                 <option value=""> </option>
                 <option value="AC">AC</option>
@@ -78,8 +79,25 @@
                 <option value="SE">SE</option>
                 <option value="TO">TO</option>
             </select>
-            <input type="text" name="cidade" id="cidade"><br />
+            <input type="text" name="cidade" id="cidade">
+            <br />
+
+            <label for="file">Selecione um arquivo:</label>
+            <input type="file" name="arquivo">
+            <br />
+
+            <label for="textarea">Sugestão</label>
+            <br />
+            <textarea name="sugestao" rows="10" cols="220">
+            </textarea>
+            <br />
+            <button type="submit" value="enviar">Enviar</button>
+            <button type="submit" value="limpar">Limpar</button>
     </fieldset>
+
+    <footer>
+        <h3> © copyleft</h3>
+    </footer>
 </body>
 
 </html>
