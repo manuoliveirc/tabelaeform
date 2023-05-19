@@ -3,12 +3,12 @@
     padding: 0;
     outline: 0;
     box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 body {
     font-size: 1.5rem;
     text-align: justify;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 :root {
@@ -27,14 +27,39 @@ h1 {
     text-shadow: 2px 2px 5px black;
 }
 
+
 h2 {
-    font-weight: 400;
-    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+
+h3 {
+    text-align: left;
+    color: black;
+    text-decoration-style: solid;
+    justify-content: left;
+    font-weight: bold;
+    border-bottom: 1rem;
+}
+
+
+h4 {
+    font-weight: bold;
+}
+
+caption {
+    justify-content: center;
+    font-weight: bolder;
 }
 
 a {
     color: rgb(255, 255, 255);
     text-decoration: none;
+}
+
+a.voltar{
+    color: black;
 }
 
 a:visited {
@@ -59,12 +84,17 @@ a:hover {
 
 main {
     min-height: var(--altura-main);
-    width: 70%;
+    width: 90%;
     margin: auto;
     display: flex;
-    align-items: center;
     justify-content: center;
-    text-align: justify;
+    flex-direction: column;
+    margin-bottom: 7rem;
+}
+
+main.f{
+    justify-content: center;
+    display: flex;
 }
 
 ol,
@@ -78,21 +108,13 @@ li {
     justify-content: left;
 }
 
-h2.texto {
-    text-align: left;
-    color: black;
-    text-decoration-style: solid;
-    justify-content: left;
-    align-items: flex-start;
-    font-weight: bold;
-}
-
 
 ol {
     text-align: left;
     list-style-type: upper-roman;
     justify-content: left;
 }
+
 
 /*tabela*/
 
@@ -102,6 +124,7 @@ table {
     border: 0.1rem solid black;
     border-collapse: collapse;
     text-align: center;
+    margin: 1rem;
 }
 
 thead,
@@ -127,9 +150,21 @@ table tr td {
     text-align: left;
 }
 
-button {
+/*tabela*/
+
+fieldset {
+    padding: 1%;
+    width: 50%;
+    margin-top: 2rem;
+    justify-content: center;
+}
+
+form button {
     color: white;
-    height: 3rem;
+    max-width: 20%;
+    height: 5rem;
+    width: 5rem;
+    font-size: medium;
     background-color: #4f8be6;
     border-radius: 50%;
 }
@@ -149,8 +184,4 @@ footer {
 section a {
     height: 100vh;
     color: black;
-}
-
-h4 {
-    font-weight: bold;
 }
